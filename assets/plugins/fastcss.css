@@ -1,0 +1,122 @@
+/* Reset */
+
+body, ul, li, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Display */
+
+.db{
+    display: block;
+}
+
+.dib{
+    display: inline-block;
+}
+
+.df{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dif{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.dg{
+    display: grid;
+}
+
+.dig{
+    display: inline-grid;
+}
+
+
+/* Position */
+
+.poss{
+    position: static;
+}
+
+.posr{
+    position: relative;
+}
+
+.posa{
+    position: absolute;
+}
+
+.posf{
+    position: fixed;
+}
+
+.posst{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+/* Flex Position */
+
+.jcc{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.jcr{
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+}
+
+.jcl{
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+}
+
+.jcstart{
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.jcend{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+
+.aic{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.aistart{
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+}
+
+.aiend{
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+}
