@@ -494,3 +494,11 @@ body {
     align-items: center;
   }
 }
+
+@media screen and (max-width: 300px)
+{
+  .latest-projects__list-item-image{
+    display: none;
+  }
+}
+
